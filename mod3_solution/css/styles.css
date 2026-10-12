@@ -1,0 +1,40 @@
+body {
+
+}
+
+h1, h2 {
+  margin-bottom: 1em;
+}
+
+.navbar-default {
+  border-color: black;
+}
+
+#header-nav {
+  background-color: black;
+  border-radius: 0;
+  border: 0;
+}
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #BBBBBB;
+}
+
+#nav-list div {
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+#nav-list hr {
+  margin: 0;
+  border-top: 1px solid black;
+}
+
+#main-content {
+  background-color: #BBBBBB;
+  border-color: black;
+  height: 9001px;
+}
