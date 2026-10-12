@@ -13,7 +13,7 @@ h1, h2 {
 #header-nav {
   background-color: black;
   border-radius: 0;
-  border: 0;
+  border: 1px solid black;
 }
 
 #nav-list {
