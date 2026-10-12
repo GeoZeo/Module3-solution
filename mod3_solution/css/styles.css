@@ -7,13 +7,18 @@ h1, h2 {
 }
 
 .navbar-default {
-  border-color: black;
+  border: black;
+  border-bottom: 1px solid black;
 }
 
 #header-nav {
   background-color: black;
   border-radius: 0;
-  border: 1px 0 1px 0 solid black;
+  border-bottom: 1px solid black;
+}
+
+#collapsable-nav {
+  border-top: 1px solid black;
 }
 
 #nav-list {
@@ -30,7 +35,7 @@ h1, h2 {
 
 #nav-list hr {
   margin: 0;
-  border-top: 1px 0 1px 0 solid black;
+  border-top: 1px solid black;
 }
 
 #main-content {
