@@ -18,7 +18,7 @@ h1, h2 {
 }
 
 #collapsable-nav {
-  border-top: 1px solid black;
+  border: 1px solid black;
 }
 
 #nav-list {
