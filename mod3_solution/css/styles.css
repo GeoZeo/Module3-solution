@@ -11,6 +11,15 @@ h1, h2 {
   border-bottom: 1px solid black;
 }
 
+.navbar-brand {
+  color: #999;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #7e7e7e;
+}
+
 #header-nav {
   background-color: #666666;
   border-radius: 0;
