@@ -11,13 +11,13 @@ h1, h2 {
   border-bottom: 1px solid black;
 }
 
-.navbar-default .navbar-brand {
-  color: #999;
+.navbar-brand a {
+	color: #ddd;
 }
 
-.navbar-brand:hover,
-.navbar-brand:focus {
-  color: #7e7e7e;
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+	color: #fff;
 }
 
 #header-nav {
