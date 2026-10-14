@@ -2,7 +2,7 @@ body {
 
 }
 
-h1, h2 {
+h1, h3 {
   margin-bottom: 1em;
 }
 
@@ -14,6 +14,18 @@ h1, h2 {
 .navbar-brand a:focus {
 	color: #fff;
 }
+
+.single-section {
+  background-color: #BBBBBB;
+  border: black;
+  height: 9001px;
+  margin: 0 auto 15px;
+}
+
+.single-section > p {
+  margin-top: 15px;
+}
+
 
 #header-nav {
   background-color: #666666;
@@ -41,12 +53,6 @@ h1, h2 {
 #nav-list hr {
   margin: 0;
   border-top: 1px solid black;
-}
-
-#main-content {
-  background-color: #BBBBBB;
-  border: black;
-  height: 9001px;
 }
 
 @media (max-width: 767px) {
