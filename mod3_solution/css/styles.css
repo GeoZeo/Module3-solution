@@ -6,11 +6,6 @@ h1, h2 {
   margin-bottom: 1em;
 }
 
-.navbar-default {
-  border: black;
-  border-bottom: 1px solid black;
-}
-
 .navbar-brand a {
 	color: #ddd;
 }
@@ -23,13 +18,12 @@ h1, h2 {
 #header-nav {
   background-color: #666666;
   border-radius: 0;
-  border-bottom: 1px solid black;
+  border: 0;
 }
 
 #collapsable-nav {
-  border-top: 1px solid;
-  border-left: 1px solid;
-  border-right: 1px solid;
+  border: 1px solid black;
+  border-bottom: 0;
 }
 
 #nav-list {
@@ -51,6 +45,14 @@ h1, h2 {
 
 #main-content {
   background-color: #BBBBBB;
-  border-color: black;
+  border: black;
   height: 9001px;
+}
+
+@media (max-width: 767px) {
+  
+  #header-nav {
+    border-bottom: 1px solid black;
+  }
+
 }
