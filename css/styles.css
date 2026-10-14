@@ -1,0 +1,64 @@
+body {
+
+}
+
+h1, h3 {
+  margin-bottom: 1em;
+}
+
+.navbar-brand a {
+	color: #ddd;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+	color: #fff;
+}
+
+.single-section {
+  background-color: #BBBBBB;
+  border: black;
+  height: 9001px;
+  margin: 0 auto 15px;
+}
+
+.single-section > p {
+  margin-top: 15px;
+}
+
+
+#header-nav {
+  background-color: #666666;
+  border-radius: 0;
+  border: 0;
+}
+
+#collapsable-nav {
+  border: 1px solid black;
+  border-bottom: 0;
+}
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #BBBBBB;
+}
+
+#nav-list div {
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+#nav-list hr {
+  margin: 0;
+  border-top: 1px solid black;
+}
+
+@media (max-width: 767px) {
+  
+  #header-nav {
+    border-bottom: 1px solid black;
+  }
+
+}
